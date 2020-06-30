@@ -1,0 +1,86 @@
+body {
+  background-color: lightblue;
+  font-family: 'Raleway', sans-serif;
+}
+nav {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+ }
+nav ul li {
+  float: right;
+  margin-right: 40px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+}
+.nav-link {
+  color: darkred;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+.nav-link:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+#brand .nav-link {
+  color: lightblue;
+  font-size: 14pt;
+}
+#brand .nav-link:hover {
+  color: darkred;
+}
+h1 {
+  font-size: 40pt;
+  font-family: "Acme", sans-serif;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px:
+  width: 100vw;
+  height: 30vh;
+  padding-top: 8em;
+  background: url('https://images.pexels.com/photos/40784/drops-of-water-water-nature-liquid-40784.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') center 80% no-repeat fixed;
+   background-size: cover;
+}
+.header-tag {
+text-align: center;
+color: darkred;
+text-shadow: 2px 2px 2px black;
+}
+h3.header-tag {
+margin-top: -10px;
+font-size: 20pt;
+}
+h2 {
+  font-familty: 'Acme', san-serif;
+  color: darkred;
+}
+.main {
+  text-align: center;
+}
+#about {
+  margin-top: 16-px;
+  display: inline-block;
+}#about-picture {
+  width: 30vw;
+  float: left;  
+}
+#profile-pic {
+  height:250px;
+  width: 250px
+    object-fit: cover;
+  border-radius: 0.7em;
+  box-shadow: 2px 2px 2px black;
+}
+#about-content {
+  width: 40vw;
+  float: right;
+}
